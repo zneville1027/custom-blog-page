@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+body {
+	color: saddlebrown;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	background-image: url(Dreamweaver%20CC18_19_20%20Project_02%20Files/forest_background.jpeg);
+	background-size: cover;
+	}
+
+
+#container {
+	width: 768px;
+	height: auto;
+	background-color: #FDC67E;
+	margin: auto;
+	opacity: 0.75;
+}
+
+aside {
+    width: 150px;
+    height: 3000px;
+    float: left;
+    background-color: #B8B3B4;
+}
+
+
+/*float the aside next to the main*/
+
+header 
+{
+	width: 768px;
+	height: 250px;
+	background-image: url(blog_forest_header.png);
+	background-position: 24% 0%;
+	background-size: cover;
+	opacity: 1;
+	background-color: #F5BD7C;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    width: 60px;
+    margin-right: 40px;
+    font-family: dr-sugiyama-pro, 'sans-serif;';
+    margin-bottom: -4px;
+ }
+
+main 
+{
+    width: 578px;
+    height: auto;
+    float: left;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+	
+}
+#container {
+}
+#container nav ul {
+    margin: auto;
+    width: 400px;
+}
+nav a:link {
+    color: darkolivegreen;
+    text-decoration: none;
+	padding: 10px;
+}
+nav a:visited {
+    text-decoration: none;
+    color: beige;
+}
+nav a:hover {
+    text-decoration: none;
+    color: beige;
+	background-color: saddlebrown;
+	padding: 5px;
+	border-radius: 20px;
+}
+nav a:active {
+	text-decoration: none;
+	color: saddlebrown;
+	font-family: dr-sugiyama-pro, 'sans-serif;';
+}
+/*float the main next to the aside and reduce by 150px so they both line up.*/
+footer 
+{
+    width: 768px;
+    height: 50px;
+    clear: both;
+}
+/*Clear the float on the footer so it shows up in the right place again*/
+h1 {
+    color: chocolate;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    /* [disabled]margin-right: -18px; */
+    /* [disabled]margin-left: -162px; */
+}
+img {
+    float: right;
+    height: auto;
+    padding-top: 10px;
+	opacity: 1;
+}
+
+.floatLeft {
+	float: Left;
+}
+article {
+    margin-bottom: 30px;
+}
+nav {
+	width: 768px;
+	height: 50px;
+}
+.submit_btn {
+	width: 170px;
+	height: 30px;
+	background-color: darkolivegreen;
+	border-radius: 10px;
+	color: beige;
+	font-size: 16px;
+}
+.submit_btn:hover {
+-webkit-box-shadow: 6px 6px 36px 1px #1B1A1A;
+	box-shadow: 6px 6px 36px 1px #1B1A1A; 
+}
+
+@media screen{
+h3 {
+	font-size: 12px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+body {
+}
+}
